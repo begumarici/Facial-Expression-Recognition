@@ -4,7 +4,7 @@ This project implements a facial expression recognition system using machine lea
 
 ## Features
 - Real-time facial expression detection using a webcam
-- Pre-trained model using VGG architecture (`best_model_vgg2.h5`)
+- Model training included in the `training.ipynb` notebook
 - Model trained on a GPU-powered environment for faster processing
 - Integration of computer vision libraries such as OpenCV and TensorFlow
 
@@ -17,8 +17,9 @@ The project has two main parts:
    - TensorFlow and Keras were used to implement the VGG-based deep learning model.
 
 3. **Real-Time Application:**
-   - A pre-trained model is used to detect facial expressions in real time through a webcam.
+   - A trained model is used to detect facial expressions in real-time through a webcam.
    - OpenCV is used for capturing video and preprocessing input frames.
+
 
 ## How to Run
 
@@ -34,8 +35,8 @@ git clone https://github.com/begumarici/Facial-Expression-Recognition.git
 cd Facial-Expression-Recognition
 ```
 
-### 2. Download the Pre-Trained Model
-- The pre-trained model (best_model_vgg2.h5) is included in this repository under the models/ directory. No additional downloads are required.
+### 2. Train the Model
+   - Open and run the training.ipynb notebook to train the facial expression recognition model. The training process uses the FER2013 dataset and the VGG architecture.
 
 
 ### 3. Run the Real-Time Application
@@ -49,8 +50,6 @@ The application will start your webcam and classify facial expressions in real t
 ```
 Facial-Expression-Recognition/
 ├── README.md              # Project documentation
-├── models/
-│   └── best_model_vgg2.h5    # Pre-trained model
 ├── src/
 │   ├── real-time.py          # Real-time detection script
 │   └── train-model.ipynb     # Notebook for model training
