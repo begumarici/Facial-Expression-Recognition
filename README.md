@@ -59,7 +59,7 @@ Facial-Expression-Recognition/
 ## Technologies Used
 - **Languages:** Python
 - **Libraries:** TensorFlow, Keras, OpenCV, NumPy, Matplotlib
-- **Tools:** Kaggle (GPU for model training)
+- **Tools:** GPU for model training
 
 ## Demo
 Coming soon
